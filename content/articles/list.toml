@@ -1,0 +1,7 @@
+[[files]]
+name = "env_dev.md"
+title = "Environnements de développement pour rust"
+summary = "Mettre en place un environnement de développement avec Zed et/ou VSCodium (ou VSCode)"
+icon = "zed.svg"
+date = "2025-10-13"
+index = 255
