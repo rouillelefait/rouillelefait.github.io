@@ -5,3 +5,11 @@ summary = "pour apprendre les bases du langage et ses spécificités"
 icon = "cuddlyferris.svg"
 date = "2025-10-12"
 index = 1
+
+[[files]]
+name = "backend.md"
+title = "créer des API backend en Rust"
+summary = "ressources pour développer des backends web basés sur des API REST ou GraphQL"
+icon = "backend.png"
+date = ""
+index = 255

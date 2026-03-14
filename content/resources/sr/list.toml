@@ -5,3 +5,11 @@ summary = "za učenje osnova jezika i njegovih specifičnosti"
 icon = "cuddlyferris.svg"
 date = "2025-10-12"
 index = 1
+
+[[files]]
+name = "backend.md"
+title = "Kreiranje backend API-ja u Rust-u"
+summary = "resursi za razvoj web backend-ova zasnovanih na REST ili GraphQL API-jima"
+icon = "backend.png"
+date = ""
+index = 255
