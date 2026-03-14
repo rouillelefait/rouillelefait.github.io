@@ -5,14 +5,14 @@
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
-  <link rel="preload" as="script" href="/./assets/website-74649a3de042914c.js" crossorigin><link rel="preload" as="fetch" type="application/wasm" href="/./assets/website_bg-2473ab9169720a8c.wasm" crossorigin></head>
+  <link rel="preload" as="script" href="/./assets/website.js" crossorigin><link rel="preload" as="fetch" type="application/wasm" href="/./assets/website_bg.wasm" crossorigin></head>
   <body>
     <div id="main"></div>
   <script>
             // We can't use a module script here because we need to start the script immediately when streaming
-            import("/./assets/website-74649a3de042914c.js").then(
+            import("/./assets/website.js").then(
                 ({ default: init }) => {
-                init("/./assets/website_bg-2473ab9169720a8c.wasm").then((wasm) => {
+                init("/./assets/website_bg.wasm").then((wasm) => {
                     if (wasm.__wbindgen_start == undefined) {
                     wasm.main();
                     }
