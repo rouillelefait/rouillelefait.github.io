@@ -204,4 +204,6 @@ Pour les adeptes de Windows, je conseille... de basculer sous linux, c'est beauc
 
 Si vraiment ce n'est pas possible, utiliser [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) pour avoir un environnement linux sous windows. Avec une Debian ou une Ubuntu sous wsl, les étapes d'installation de Rust sont exactement les mêmes que sous linux.
 
-Pour l'IDE, Zed n'est pas encore stable sous windows donc utiliser VSCode. L'extension [WSl remote](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) de VSCode permet de travailler dans WSL (linux) depuis VSCode installé sous windows. Cette extension semble poser quelques problèmes de fonctionnement avec VSCodium.
+Pour l'IDE, sous windows vous pouvez utiliser l'extension [WSl remote](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) de VSCode permet de travailler dans WSL (linux) depuis VSCode installé sous windows. Cette extension semble poser quelques problèmes de fonctionnement avec VSCodium.
+
+Maintenant que Zed est stable sous windows, c'est l'idéal avec un intégration très performante permettant de travailler dans des distribution WSL sans besoin d'extension dédiée.
